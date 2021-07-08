@@ -4,7 +4,7 @@ import Banner from '../components/Banner';
 import {Link} from 'react-router-dom';
 import Services from '../components/Services';
 import FeaturedRooms from '../components/FeaturedRooms';
-
+import Map from '../components/Map';
 
 export const Home = () => {
     return (
@@ -21,6 +21,8 @@ export const Home = () => {
         <Services />
 
         <FeaturedRooms />
+
+        <Map />
         </>
     )
 }
